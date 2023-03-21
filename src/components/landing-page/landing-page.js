@@ -3,6 +3,8 @@ import mosque from '../../assets/mosque.jpg';
 import Header from '../common/header';
 import './landing-page.scss'
 import aayatData from '../data/aayat'
+import PrayerTimes from '../prayer-times/prayer-times';
+import Footer from '../common/footer';
 
 function LandingPage() {
   return (
@@ -60,6 +62,8 @@ function LandingPage() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <PrayerTimes />
+      <Footer />
     </>
   );
 }
